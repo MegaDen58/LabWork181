@@ -80,19 +80,19 @@ class Complex {
     public class Main {
         public static void main(String[] args) {
             Scanner in = new Scanner(System.in);
-            System.out.print("Введите первую действительную часть: ");
+            System.out.print("Р’РІРµРґРёС‚Рµ РїРµСЂРІСѓСЋ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅСѓСЋ С‡Р°СЃС‚СЊ: ");
             double x1 = in.nextDouble();
-            System.out.print("Введите первую мнимую единицу: ");
+            System.out.print("Р’РІРµРґРёС‚Рµ РїРµСЂРІСѓСЋ РјРЅРёРјСѓСЋ РµРґРёРЅРёС†Сѓ: ");
             double i1 = in.nextDouble();
-            System.out.print("Введите вторую действительную часть: ");
+            System.out.print("Р’РІРµРґРёС‚Рµ РІС‚РѕСЂСѓСЋ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅСѓСЋ С‡Р°СЃС‚СЊ: ");
             double x2 = in.nextDouble();
-            System.out.print("Введите вторую мнимую единицу: ");
+            System.out.print("Р’РІРµРґРёС‚Рµ РІС‚РѕСЂСѓСЋ РјРЅРёРјСѓСЋ РµРґРёРЅРёС†Сѓ: ");
             double i2 = in.nextDouble();
             Complex comp = Complex.getInstance();
             comp.setParameters(x1, x2, i1, i2);
-            System.out.printf("Сумма = %s\n", comp.complexSum());
-            System.out.printf("Разность = %s\n", comp.complexSub());
-            System.out.printf("Произведение = %s\n", comp.complexMulti());
-            System.out.printf("Частное = %s\n",comp.complexDiv());
+            System.out.printf("РЎСѓРјРјР° = %s\n", comp.complexSum());
+            System.out.printf("Р Р°Р·РЅРѕСЃС‚СЊ = %s\n", comp.complexSub());
+            System.out.printf("РџСЂРѕРёР·РІРµРґРµРЅРёРµ = %s\n", comp.complexMulti());
+            System.out.printf("Р§Р°СЃС‚РЅРѕРµ = %s\n",comp.complexDiv());
         }
     }
